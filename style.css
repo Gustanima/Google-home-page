@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Navegação*/
+
+.main {
+    overflow: hidden;
+}
+
+.linksontop {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    height: 48px;
+
+}
+
+
+
+#svgimage {
+    width: 25px;
+    height: 25px;
+    margin: 4px 15px 0px 15px;
+    padding: 5px;
+}
+
+#svgimage:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.linksontop>.linksgeneric>a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000de;
+    padding-left: 15px;
+}
+
+.linksontop .linksgeneric a:hover {
+    text-decoration: underline;
+}
+
+.linksontop a .imgnav {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 4px;
+    overflow: x;
+}
+
+.linksontop a .imgnav:hover {
+    overflow: x;
+    background-color: rgba(128, 128, 128, 0.568);
+}
+
+/* Meio*/
+
+.imageofgoogle img {
+    margin-top: 60px;
+    width: 272px;
+    height: 92px;
+    margin-left: 400px;
+}
+
+.downofgoogle {
+    padding: 20px 0px 0px 0px;
+
+}
+
+.downofgoogle .inputandsvg input {
+    margin-left: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    border-radius: 24px;
+    outline: none;
+    width: 443px;
+    height: 34px;
+    padding: 5px 8px 5px 14px;
+
+}
+
+.downofgoogle .inputandsvg input:hover {
+    box-shadow: 3px 3px 12px rgba(128, 128, 128, 0.685);
+}
+
+#searchsvg {
+    position: absolute;
+    left: 310px;
+    top: 245px;
+    opacity: 0.3;
+}
+
+#searchsvg:hover {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+#microphonesvg {
+    position: absolute;
+    left: 730px;
+    top: 245px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#keyboardimg {
+    position: absolute;
+    left: 689px;
+    top: 252px;
+    cursor: pointer;
+}
+
+.buttonsmid {
+    padding-top: 14px;
+    margin-left: 400px;
+}
+
+.buttonsmid button {
+
+    border: none;
+    padding: 20px;
+}
+
+#button1 {
+    padding: 0px 16px;
+    margin: 11px 4px;
+    background: #f8f9fa;
+    width: 140.64px;
+    height: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#button1:hover {
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    box-shadow: 0px 1px 4px rgba(128, 128, 128, 0.452);
+    cursor: pointer;
+}
+
+#button2 {
+    padding: 0px 16px;
+    margin: 11px 4px;
+    background: #f8f9fa;
+    width: 135.16px;
+    height: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px 0px 90px 0px;
+}
+
+#button2:hover {
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    box-shadow: 0px 1px 4px rgba(128, 128, 128, 0.452);
+    cursor: pointer;
+}
+
+/* Footer */
+
+.end {
+    background: #70757a23;
+    height: 94px;
+    overflow-y: hidden;
+    width: 100%;
+
+}
+
+.uptext {
+    padding: 15px 0px 0px 0px;
+
+    font-size: 15px;
+    color: gray;
+}
+
+.uptext>p {
+    margin-left: 16px;
+}
+
+hr {
+    margin-top: 10px;
+    border-color: gray;
+
+
+    opacity: 0.2;
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 18px;
+}
+
+.links .linksfooterright {
+    margin-left: 190px;
+}
+
+.links .linksfooterright a {
+    text-decoration: none;
+    color: gray;
+    padding: 20px;
+}
+
+.links .linksfooterright a:hover {
+    text-decoration: underline;
+}
+
+.end .linksfooterleft a {
+    text-decoration: none;
+    color: gray;
+    padding: 0px 20px;
+    font-size: 15px;
+
+}
+
+.end .linksfooterleft a:hover {
+    text-decoration: underline;
+}
